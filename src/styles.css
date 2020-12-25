@@ -1,0 +1,31 @@
+.wrapper {
+	width: 100vw;
+	height: 100vh;
+}
+
+.calc-wrapper {
+	font-family: sans-serif;
+	text-align: center;
+	width: 300px;
+}
+
+.key-pad {
+	width: 70px;
+	height: 70px;
+	border: 1px solid #efefef;
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	line-height: 70px;
+	border-radius: 5px;
+}
+
+.key-pad:active:hover {
+	background: #f1f1f1;
+	color: #333;
+}
+
+.output-screen {
+	height: 20px;
+	line-height: 20px;
+}
